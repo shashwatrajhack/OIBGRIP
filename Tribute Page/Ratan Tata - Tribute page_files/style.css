@@ -1,0 +1,91 @@
+html {
+    font-family: Noto serif, serif;
+    font-size: 30px;
+    font-weight: 145;
+    color: rgb(2, 3, 6);
+    background-color: black
+}
+
+body{
+    font-size: 1.6rem;
+    margin: 0 auto;
+    width: 70vw;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    body{
+        width: 100vw;
+    }
+}
+
+@media(min-width:1200px) {
+    body{
+        max-width: 600px;
+    }
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: wavy;
+}
+
+h1 {
+    font-family: Noto Sans JP,sans-serif;
+    font-size: 2rem;
+    color: azure;
+}
+
+h2 {
+    font-family: Noto Sans JP,sans-serif;
+    font-size: 2rem;
+    margin: 45px 0 20px 0;
+    text-align: center;
+    color: floralwhite;
+
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 40px 0 5px 0;
+    color: darkgray;
+}
+
+sectionv{
+    text-align: left;
+}
+
+#image1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+#img-caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+
+
+
+
+#image2 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.para {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+}
